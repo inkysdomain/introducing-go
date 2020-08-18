@@ -3,6 +3,13 @@ package main
 import "fmt"
 
 func main() {
+  /* Program Summary:
+Creates a program that references the fmt library in order to create the function
+main with no arguments. The program calculates various booleans and displays the
+result. Commented out are two sections. Section one is printing integers and
+floats, and section two prints the length of strings, concatenation examples,
+and the second character of another string. */
+
 /*  fmt.Println("1 + 1 =", 1 + 1)
   fmt.Println("1.0 + 1.0 =", 1.0 + 1.0)
 */
@@ -18,6 +25,8 @@ func main() {
   fmt.Println("true || false:", true || false)
   fmt.Println("!true:", !true)
 }
+
+
 
 /*
 1. How are integers stored on a computer?
